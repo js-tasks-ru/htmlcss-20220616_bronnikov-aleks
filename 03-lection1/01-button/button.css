@@ -7,31 +7,31 @@
     font-family: 'Roboto', sans-serif;
     font-style: normal;
     font-weight: 500;
-    color: white;
+    color: var(--white-text);
     border: none;
     border-radius: 8px;
     cursor: pointer;
     padding: 15px 15px 14px;
 }
 
+.button:disabled {
+    opacity: 50%;
+    pointer-events: none;
+}
+
 .button_primary {
     background-color: var(--primary-main)
 }
 
-.button_p_hover {
+.button_primary:hover {
     background-color: var(--primary-hover)
-}
-
-.button_disabled {
-    opacity: 50%;
-    cursor: not-allowed;
 }
 
 .button_secondary {
     background-color: var(--secondary-main);
 }
 
-.button_s_hover {
+.button_secondary:hover {
     background-color: var(--secondary-hover);
 }
 
@@ -41,6 +41,10 @@
     border: 1px solid var(--alternate-border);
 }
 
-.button_a_hover {
+.button_alternate:hover {
     border: 1px solid var(--alternate-b-hover);
+}
+
+.button_primary, .button_secondary, .button_alternate {
+    transition: opacity 200ms ease-in-out, background 200ms ease-in-out, border 200ms ease-in-out;
 }

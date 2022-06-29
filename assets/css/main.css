@@ -2,6 +2,9 @@
 @import '../../03-lection1/01-button/button.css';
 
 :root {
+    /* ---------------------------------- Button Colors----------------------------- */
+    --white-text: white;
+    
     /* Primary Colors */
     --primary-main: #4263EB;
     --primary-hover: #2342C0;
@@ -18,5 +21,5 @@
     --alternate-b-hover: #212429;
     --alternate-text: #495057;
     /* Alternate Colors */
-
+    /* ---------------------------------- Button Colors----------------------------- */
 }
