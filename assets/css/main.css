@@ -1,5 +1,6 @@
 @import '../fonts/fonts.css';
 @import '../../03-lection1/01-button/button.css';
+@import '../../03-lection1/02-accordion/accordion.css';
 
 :root {
     /* ---------------------------------- Button Colors----------------------------- */
@@ -22,4 +23,10 @@
     --alternate-text: #495057;
     /* Alternate Colors */
     /* ---------------------------------- Button Colors----------------------------- */
+
+    /* ---------------------------------- Accordion Colors----------------------------- */
+    --accordion-border: #ACB5BD;
+    --accordion-title: #212429;
+    --accordion-text: #495057;
+    /* ---------------------------------- Accordion Colors----------------------------- */
 }
