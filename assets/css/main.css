@@ -1,6 +1,19 @@
 @import '../fonts/fonts.css';
+@import '../../assets/css/normalize.css';
+
 @import '../../03-lection1/01-button/button.css';
 @import '../../03-lection1/02-accordion/accordion.css';
+
+@import '../../04-lection2/01-histogram/histogram.css';
+
+@import '../../components/header/header.css';
+@import '../../components/footer/footer.css';
+@import '../../components/preview/preview.css';
+@import '../../components/layout/layout.css';
+@import '../../components/card/card.css';
+
+@import '../../components/container/container.css';
+
 
 :root {
     /* ---------------------------------- Button Colors----------------------------- */
@@ -29,4 +42,18 @@
     --accordion-title: #212429;
     --accordion-text: #495057;
     /* ---------------------------------- Accordion Colors----------------------------- */
+
+
+    --head-foot-bg: white;
+    --header-title: #212429;
+    --preview-bg: #F9FAFC;
+    --card-bg: white;
+
+    /* ---------------------------------- Histogram Colors----------------------------- */
+    --histo-bg: white;
+    --histo-border: #ACB5BD;
+    --histo-title: #212429;
+    --histo-link: #4263EB;
+    --histo-scale-line: #4263EB;
+    /* ---------------------------------- Histogram Colors----------------------------- */
 }

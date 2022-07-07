@@ -1,0 +1,13 @@
+@import '../../assets/css/main.css';
+
+.preview {
+    background-color: var(--preview-bg);
+    padding: 68px 0 204px;
+    font-size: 0;
+}
+
+.preview__inner {
+    display: flex;
+    gap: 30px;
+    flex-wrap: wrap;
+}
