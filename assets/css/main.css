@@ -5,6 +5,7 @@
 @import '../../03-lection1/02-accordion/accordion.css';
 
 @import '../../04-lection2/01-histogram/histogram.css';
+@import '../../04-lection2/02-skeleton/skeleton.css';
 
 @import '../../components/header/header.css';
 @import '../../components/footer/footer.css';
@@ -16,11 +17,17 @@
 
 
 :root {
-    /* ---------------------------------- Button Colors----------------------------- */
+    --primary-blue: #4263EB;
+    --primary-border: #ACB5BD;
+    --primary-bg: white;
+    --primary-border-radius: 8px;
     --white-text: white;
+    --gray-text: #495057; 
+    --primary-title-border: #212429;
+    
+    /* ---------------------------------- Button Colors----------------------------- */
     
     /* Primary Colors */
-    --primary-main: #4263EB;
     --primary-hover: #2342C0;
     /* Primary Colors */
 
@@ -29,31 +36,12 @@
     --secondary-hover: #5028C6;
     /* Secondary Colors */
 
-    /* Alternate Colors */
-    --alternate-main: white;
-    --alternate-border: #ACB5BD;
-    --alternate-b-hover: #212429;
-    --alternate-text: #495057;
-    /* Alternate Colors */
     /* ---------------------------------- Button Colors----------------------------- */
 
-    /* ---------------------------------- Accordion Colors----------------------------- */
-    --accordion-border: #ACB5BD;
-    --accordion-title: #212429;
-    --accordion-text: #495057;
-    /* ---------------------------------- Accordion Colors----------------------------- */
-
-
-    --head-foot-bg: white;
-    --header-title: #212429;
     --preview-bg: #F9FAFC;
-    --card-bg: white;
 
-    /* ---------------------------------- Histogram Colors----------------------------- */
-    --histo-bg: white;
-    --histo-border: #ACB5BD;
-    --histo-title: #212429;
-    --histo-link: #4263EB;
-    --histo-scale-line: #4263EB;
-    /* ---------------------------------- Histogram Colors----------------------------- */
+    /* ---------------------------------- Skeleton Colors----------------------------- */
+     --skeleton-photo: #DDE2E5;
+     --skeleton-gradient: linear-gradient(92.51deg, #DDE2E5 6.44%, #E2E6E8 38.47%, #F3F5F5 56.48%, #E3E7EA 77.5%, #DDE2E5 102.52%);
+    /* ---------------------------------- Skeleton Colors----------------------------- */
 }

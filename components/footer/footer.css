@@ -1,6 +1,6 @@
-@import '../../assets/css/main.css';
+
 
 .footer {
-    background-color: var(--head-foot-bg);
+    background-color: var(--primary-bg);
     padding: 384px 0 0;
 }

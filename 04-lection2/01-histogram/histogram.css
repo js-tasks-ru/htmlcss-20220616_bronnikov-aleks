@@ -1,14 +1,17 @@
-@import '../../assets/css/main.css';
-
 .histogram {
-    background-color: var(--histo-bg);
+    background-color: var(--primary-bg);
     padding: 16px 24px 24px;
-    border: 1px solid var(--histo-border);
-    border-radius: 8px;
+    border: 1px solid var(--primary-border);
+    border-radius: var(--primary-border-radius);
     font-family: 'Inter';
     font-style: normal;
     font-weight: 400;
     font-size: 16px;
+}
+
+.histogram__wrapper {
+    display: flex;
+    justify-content: space-between;
 }
 
 .histogram__title {
@@ -19,9 +22,8 @@
 }
 
 .histogram__link {
-    float: right;
     text-decoration-line: none;
-    color: var(--histo-link);
+    color: var(--primary-blue);
 }
 
 .histogram__amount {
@@ -38,6 +40,8 @@
 }
 
 .histogram__scale-line {
-    background-color: var(--histo-scale-line);
-    width: 9px;
+    display: flex;
+    background-color: var(--primary-blue);
+    flex-basis: 9px;
+    flex-grow: 1;
 }
