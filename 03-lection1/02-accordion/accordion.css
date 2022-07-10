@@ -10,7 +10,7 @@
 
 
 .accordion__item {
-    border: 1px solid var(--accordion-border);
+    border: 1px solid var(--primary-border);
     border-radius: 8px;
     margin-bottom: 8px;
 }
@@ -23,7 +23,7 @@
     display: block;
     padding: 24px 32px 24px;
     cursor: pointer;
-    color: var(--accordion-title);
+    color: var(--primary-title-border);
 }
 
 .accordion__title::after {
@@ -52,5 +52,5 @@
     display: block;
     padding-left: 32px;
     margin: 0;
-    color: var(--accordion-text);
+    color: var(--gray-text);
 }

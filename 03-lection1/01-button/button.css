@@ -20,7 +20,7 @@
 }
 
 .button_primary {
-    background-color: var(--primary-main)
+    background-color: var(--primary-blue)
 }
 
 .button_primary:hover {
@@ -36,13 +36,13 @@
 }
 
 .button_alternate {
-    color: var(--alternate-text);
-    background-color: var(--alternate-main);
-    border: 1px solid var(--alternate-border);
+    color: var(--gray-text);
+    background-color: var(--primary-bg);
+    border: 1px solid var(--primary-border);
 }
 
 .button_alternate:hover {
-    border: 1px solid var(--alternate-b-hover);
+    border: 1px solid var(--primary-title-border);
 }
 
 .button_primary, .button_secondary, .button_alternate {
