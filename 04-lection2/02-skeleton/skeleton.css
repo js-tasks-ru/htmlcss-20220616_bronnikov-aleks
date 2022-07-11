@@ -8,31 +8,29 @@
     gap: 24px;
 }
 
-.skeleton__info-1 {
+.skeleton__top {
     display: flex;
     gap: 16px;
     align-items: center;
 }
 
-.skeleton__info-2 {
+.skeleton__bottom {
     display: flex;
     flex-direction: column;
     gap: 8px;
     width: 100%;
 }
 
-.skeleton__block-1 {
-    display: block;
-}
-
 .skeleton__image {
+    display: flex;
+    flex-shrink: 0;
     width: 64px;
     height: 64px;
     border-radius: 50%;
     background: var(--skeleton-photo);
 }
 
-.skeleton__block-2 {
+.skeleton__top-column {
     display: flex;
     flex-direction: column;
     gap: 8px;
@@ -43,3 +41,17 @@
     height: 20px;
     background: var(--skeleton-gradient);
 }
+
+.skeleton__line_short {
+    width: 25%;
+}
+
+.skeleton__line_middle {
+    width: 50%;
+}
+
+.skeleton__line_long {
+    width: 100%;
+}
+
+
