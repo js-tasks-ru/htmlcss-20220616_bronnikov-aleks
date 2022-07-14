@@ -51,6 +51,10 @@
     --text-color: #334D6E;
     --days-color: #90A0B7;
     --between-active-color: rgba(160, 177, 245, 0.2);
+    /* ---------------------------------- Calendar Colors----------------------------- */
+
+    /* ---------------------------------- Tooltip Colors----------------------------- */
+    --bubble-text: #DDE2E5;
 }
 
 html, body {
