@@ -20,6 +20,7 @@
 
 
 :root {
+    --primary-black: black;
     --primary-blue: #4263EB;
     --primary-border: #ACB5BD;
     --primary-bg: white;
@@ -28,6 +29,7 @@
     --gray-text: #495057;
     --blue-text: #334D6E; 
     --primary-title-border: #212429;
+    --link-active: #D84910;
     
     /* ---------------------------------- Button Colors----------------------------- */
     

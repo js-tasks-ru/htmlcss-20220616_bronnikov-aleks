@@ -3,7 +3,8 @@
     display: inline-block;
 }
 
-.tooltip__trigger {}
+.tooltip__trigger {
+}
 
 .tooltip__bubble {
     display: none;
@@ -19,11 +20,10 @@
     text-align: center;
     color: var(--bubble-text);
     position: absolute;
-    top: 100%;
     left: 50%;
+    bottom: calc(100% + 10px);
     transform: translateX(-50%);
     white-space: nowrap;
-    margin-top: 3px;
 }
 
 .tooltip__bubble::after {
@@ -32,8 +32,8 @@
     width: 0;
     height: 0;
     border: 10px solid transparent;
-    border-bottom: 6px solid var(--primary-blue);
-    bottom: 100%;
+    border-top: 6px solid var(--primary-blue);
+    top: 100%;
     left: 50%;
     transform: translateX(-50%);
 }
