@@ -2,11 +2,9 @@
     position: relative;
     display: inline-block;
 }
-
 .tooltip__trigger {
-    
-}
 
+}
 .tooltip__bubble {
     display: none;
     padding: 13px 21px;
