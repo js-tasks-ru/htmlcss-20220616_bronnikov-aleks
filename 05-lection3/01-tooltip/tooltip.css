@@ -3,7 +3,9 @@
     display: inline-block;
 }
 
-.tooltip__trigger {}
+.tooltip__trigger {
+    
+}
 
 .tooltip__bubble {
     display: none;
