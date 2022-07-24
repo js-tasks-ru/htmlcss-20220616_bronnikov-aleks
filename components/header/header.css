@@ -1,8 +1,7 @@
-
-
 .header {
     padding: 96px 0 77px;
     background-color: var(--primary-bg);
+    grid-area: header;
 }
 
 .header__title {
@@ -14,3 +13,11 @@
     color: var(--primary-title-border);
     margin: 0;
 }
+
+/* ------------------------------Template Styles------------------------------ */
+
+.header_template {
+    padding: 41px 0;
+}
+
+/* ------------------------------Template Styles------------------------------ */

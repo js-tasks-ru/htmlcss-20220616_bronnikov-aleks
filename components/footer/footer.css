@@ -1,6 +1,27 @@
-
-
 .footer {
     background-color: var(--primary-bg);
     padding: 384px 0 0;
+    grid-area: footer;
 }
+
+/* ------------------------------Template Styles------------------------------ */
+
+.footer_template {
+    background-color: var(--preview-bg);
+    padding: 56px 0;
+}
+
+.footer__title {
+    text-align: center;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 12px;
+    line-height: 18px;
+    letter-spacing: 0.04em;
+    text-transform: uppercase;
+    color: var(--primary-border);
+    margin: 0;
+}
+
+/* ------------------------------Template Styles------------------------------ */
