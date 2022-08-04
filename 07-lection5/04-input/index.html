@@ -1,11 +1,52 @@
 <!DOCTYPE html>
 <!-- Страница с полем ввода -->
 <html lang="ru">
-    <head>
-        <link rel="stylesheet" href="../../assets/css/main.css">
-        <link rel="stylesheet" href="./input.css">
-    </head>
-    <body>
 
-    </body>
+<head>
+    <link rel="stylesheet" href="../../assets/css/main.css">
+    <link rel="stylesheet" href="./input.css">
+    <style>
+        .form {
+            margin-bottom: 12px;
+        }
+    </style>
+</head>
+
+<body>
+
+    <form class="form">
+        <div class="form__box">
+            <input class="form__text-input" type="text" placeholder="Placeholder">
+                <svg class="form__input-sprite">
+                    <use href="../../assets/images/sprites.svg#success">
+                </svg>
+        </div>
+        <div class="form__text">Default</div>
+    </form>
+
+    <form class="form">
+        <div class="form__box">
+            <input class="form__text-input form__text-input_success" type="text" 
+    placeholder="Placeholder" value="Success">
+                <svg class="form__input-sprite">
+                    <use href="../../assets/images/sprites.svg#success">
+                </svg>
+        </div>
+        <div class="form__text">Success</div>
+    </form>
+
+    <form class="form">
+        <div class="form__box">
+            <input class="form__text-input form__text-input_error" 
+    type="text" 
+    placeholder="Placeholder" value="Error">
+                <svg class="form__input-sprite">
+                    <use href="../../assets/images/sprites.svg#error">
+                </svg>
+        </div>
+        <div class="form__text">Error</div>
+    </form>
+
+</body>
+
 </html>
