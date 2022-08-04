@@ -4,8 +4,31 @@
     <head>
         <link rel="stylesheet" href="../../assets/css/main.css">
         <link rel="stylesheet" href="./radio.css">
+        <style>
+            .radio {
+                margin-right: 16px;
+            }
+        </style>
     </head>
     <body>
+    <label class="radio">
+        <input class="radio__input" type="radio" name="radio">
+        <div class="radio__state">
+            <div class="radio__circle">
+                <div class="radio__circle-inner"></div>
+            </div>
+            <div class="radio__title">Default</div>
+        </div>
+    </label>
 
+    <label class="radio">
+        <input class="radio__input" type="radio" name="radio" disabled>
+        <div class="radio__state">
+            <div class="radio__circle">
+                <div class="radio__circle-inner"></div>
+            </div>
+            <div class="radio__title">Disabled</div>
+        </div>
+    </label>
     </body>
 </html>
