@@ -59,6 +59,10 @@
     pointer-events: none;
 }
 
+.toggler__input:disabled ~ .toggler__state .toggler__box .toggler__box-inner {
+    background-color: var(--primary-border);
+}
+
 .toggler__input:disabled ~ .toggler__state .toggler__title {
     color: var(--primary-gray);
 }
