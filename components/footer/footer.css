@@ -1,7 +1,10 @@
+.layout__footer {
+    grid-area: footer;
+}
+
 .footer {
     background-color: var(--primary-bg);
     padding: 384px 0 0;
-    grid-area: footer;
 }
 
 /* ------------------------------Template Styles------------------------------ */

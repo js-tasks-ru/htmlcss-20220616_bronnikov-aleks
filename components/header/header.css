@@ -1,7 +1,10 @@
+.layout__header {
+    grid-area: header;
+}
+
 .header {
     padding: 96px 0 77px;
     background-color: var(--primary-bg);
-    grid-area: header;
 }
 
 .header__title {
@@ -21,3 +24,8 @@
 }
 
 /* ------------------------------Template Styles------------------------------ */
+
+.header__logo {
+   width: 110px;
+   height: 32px;
+}

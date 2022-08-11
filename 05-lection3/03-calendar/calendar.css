@@ -3,6 +3,7 @@
     border: 1px solid var(--primary-border);
     border-radius: var(--primary-border-radius);
     background-color: var(--primary-bg);
+    max-width: 304px;
 }
 
 .calendar__title {
